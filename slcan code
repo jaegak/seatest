@@ -1,0 +1,4 @@
+sudo slcand -o -c -f -s4 /dev/ttyUSB0 slcan0
+sudo ifconfig slcan0 up
+candump slcan0
+ls /dev/ttyU*
